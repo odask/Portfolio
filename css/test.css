@@ -1,0 +1,48 @@
+.btn {
+    padding: 8px 16px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #D01300;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #D01300;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #D01300;
+    box-shadow: none;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #E8D0A9;
+    border-color: #E8D0A9;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #E8D0A9;
+    color: #E8D0A9;
+    box-shadow: none;
+}
+
+
+.btn-primary.outline {
+    border: 2px solid #E8D0A9;
+    color: #E8D0A9;
+    border-radius: 25px;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
